@@ -1,26 +1,38 @@
-# 📊 Temporal Sentiment Dynamics in Spotify Reviews  
+#Sentiment Analysis and Thematical Analysis of spotify reviews 
+##Customer reviews offer more than just overall sentiment—they highlight the specific themes and features users care about most. Traditional sentiment analysis provides polarity (positive/negative), but it often overlooks which issues matter most to customers and where businesses should focus their efforts.
 
-## 📌 Overview  
-In today’s dynamic digital landscape, understanding how **customer sentiment evolves over time** is crucial for driving **retention** and **revenue growth**. Traditional sentiment analysis often treats reviews as isolated events, overlooking temporal patterns that reveal **shifting perceptions and behaviors**.  
+This project enhances sentiment analysis by combining RoBERTa-based sentiment classification with thematic analysis and weighted prioritization of concerns. By leveraging user engagement signals such as thumbsCount, the study identifies not only the sentiment but also the relative importance of different themes in Spotify reviews.
 
-This project bridges that gap by focusing on **tracking and forecasting sentiment dynamics** among Spotify users. By analyzing textual reviews alongside engagement metrics, the study models how sentiment progresses, uncovers **patterns signaling behavioral changes**, and enables timely, targeted interventions.  
+The outcome is a structured framework that helps businesses understand customer priorities, differentiate between minor complaints and high-impact issues, and make data-driven product or service improvements.
 
-Ultimately, this approach provides a **nuanced understanding of customer experience**, allowing Spotify (or any business with user reviews) to proactively enhance satisfaction, loyalty, and strategic decision-making.  
+## Objectives
 
----
+Classify Spotify reviews into positive and negative sentiments using RoBERTa.
 
-## 🎯 Objectives  
-- Analyze **Spotify customer reviews** to understand sentiment over time.  
-- Track how **sentiment dynamics** evolve with customer engagement.  
-- Forecast **future sentiment trends** to detect churn risk and opportunities.  
-- Provide actionable insights to support **revenue and retention strategies**.  
+Perform thematic analysis to identify key recurring topics within both sentiment categories.
 
----
+Apply thumbsCount weighting to rank themes by importance and highlight high-priority issues/features.
 
-## 🛠️ Features  
-- **Sentiment Analysis**: Textual review classification (positive, negative, neutral).  
-- **Temporal Modelling**: Captures progression of sentiment across time.  
-- **Forecasting**: Predicts future sentiment trends and potential churn indicators.  
-- **Visualizations**: Graphical insights into sentiment evolution and engagement.  
+Visualize insights using word clouds and thematic distributions to provide intuitive, actionable findings.
+
+##Features
+
+Sentiment Classification: Robust sentiment detection using RoBERTa transformer.
+
+Balanced Dataset: Ensures unbiased thematic analysis by balancing positive and negative reviews.
+
+Weighted Thematic Analysis: Incorporates thumbsCount to prioritize themes based on user engagement.
+
+Word Clouds: Intuitive visualization of top positive and negative themes.
+
+Actionable Insights: Identifies improvement areas (e.g., bugs, features, usability issues) and strengths (e.g., personalization, sound quality).
+
+## Impact for Business
+
+Top Priority Issues: Pinpoints negative themes with the highest weighted importance for targeted fixes.
+
+Strength Amplification: Highlights features that users value most, guiding marketing and product positioning.
+
+Data-Driven Decision Making: Helps Spotify (or any business with user reviews) prioritize improvements that matter most to customers.s**: Graphical insights into sentiment evolution and engagement.  
 
 ---
