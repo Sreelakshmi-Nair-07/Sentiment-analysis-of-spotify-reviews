@@ -1,5 +1,5 @@
-#Sentiment Analysis and Thematical Analysis of spotify reviews 
-##Customer reviews offer more than just overall sentiment—they highlight the specific themes and features users care about most. Traditional sentiment analysis provides polarity (positive/negative), but it often overlooks which issues matter most to customers and where businesses should focus their efforts.
+# Sentiment Analysis and Thematical Analysis of spotify reviews 
+## Customer reviews offer more than just overall sentiment—they highlight the specific themes and features users care about most. Traditional sentiment analysis provides polarity (positive/negative), but it often overlooks which issues matter most to customers and where businesses should focus their efforts.
 
 This project enhances sentiment analysis by combining RoBERTa-based sentiment classification with thematic analysis and weighted prioritization of concerns. By leveraging user engagement signals such as thumbsCount, the study identifies not only the sentiment but also the relative importance of different themes in Spotify reviews.
 
@@ -15,7 +15,7 @@ Apply thumbsCount weighting to rank themes by importance and highlight high-prio
 
 Visualize insights using word clouds and thematic distributions to provide intuitive, actionable findings.
 
-##Features
+## Features
 
 Sentiment Classification: Robust sentiment detection using RoBERTa transformer.
 
